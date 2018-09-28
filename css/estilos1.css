@@ -1,0 +1,71 @@
+body{
+background-color: rgb(200, 200, 200);
+font-family: sans-serif;
+}
+img{
+	width: 400px;
+	box-shadow: -6px -5px 8px rgb(35, 32, 37) ;
+}
+div{
+	text-align: center;
+}
+.imagen1:hover{
+  width: 600px;
+	filter: opacity(0.7);
+  transform: scale(1.5);
+	transition: 4s;
+
+}
+.imagen2:hover{
+  transform: rotateX(360deg);
+	transition: 3s;
+	filter: grayscale(95%);
+
+}
+.imagen3:hover{
+	filter:sepia(95%);
+  transform: rotate(360deg);
+	transition: 5s;
+	width: 600px;
+
+}
+.imagen4:hover{
+	filter: blur(20px);
+  transform: scale(0.3);
+	transition: 3s;
+	width: 600px;
+
+}
+h3{
+	text-shadow: 3px 6px 7px rgb(200,35,150);
+}
+h3:hover{
+  text-shadow: 0px 0px 0px rgb(255,255,255);
+		color: grey;
+    font-style: italic;
+    font-display: block;
+
+}
+p{
+  text-align: justify;
+  text-shadow: 3px 6px 7px rgb(150,50,150);
+}
+p:hover{
+  text-shadow: 0px 0px 0px rgb(255,255,255);
+  font-family: monospace;
+  font-size: 18px;
+}
+a:link{
+	color: green;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	font-weight: bolder;
+  font-style: italic;
+}
+
+a:active{
+	color: rgb(50, 220,50);
+}
